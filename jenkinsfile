@@ -4,7 +4,7 @@ pipeline {
         stage('git checkout') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/siddana123/Calculator.git'
+                git 'https://github.com/lingaraj8747/Calculator.git'
               }
         }      
         stage('maven build') {
